@@ -20,4 +20,4 @@ chmod +x netcat.py
 ```
 
  # Preview
-![](/image/image01.png)
+![](/image/image.png)
