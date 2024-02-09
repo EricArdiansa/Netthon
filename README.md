@@ -16,6 +16,8 @@ in linux machine
 chmod +x netcat.py
 ./netcat.py --help
 ./netcat.py -t 192.168.0.121 -p 9001 -l -c
+
 ```
 
+ # Preview
 ![](/image/image01.png)
