@@ -14,7 +14,7 @@ def execute(cmd):
     return output.decode()
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="BHP Net Tool", formatter_class=argparse.RawDescriptionHelpFormatter, epilog=textwrap.dedent(''' Example : 
+    parser = argparse.ArgumentParser(description="Netcat Python Replacement", formatter_class=argparse.RawDescriptionHelpFormatter, epilog=textwrap.dedent(''' Example : 
      netcat.py -t 192.168.0.121 -p 9001 -l -c # command shell
      netcat.py -t 192.168.0.121 -p 9001 -l -u=mytest.txt # upload to file
      netcat.py -t 192.168.0.121 -p 9001 -l -e=\"cat /etc/paswd\" # execute a command
